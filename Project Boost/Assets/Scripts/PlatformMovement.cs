@@ -17,6 +17,7 @@ public class PlatformMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (period <= Mathf.Epsilon) { return; }
         // Continually grows over time.
         float cycles = Time.time / period;
 

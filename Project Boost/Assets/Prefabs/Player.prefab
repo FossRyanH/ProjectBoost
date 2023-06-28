@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 2769463593534731248}
   - component: {fileID: 2092886429393659289}
   - component: {fileID: 6762785311632390062}
+  - component: {fileID: 1469817061328085906}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -642,6 +643,18 @@ MonoBehaviour:
   completeLevelSFX: {fileID: 8300000, guid: df7530ce7eaa28d4987a68b1c26dd829, type: 3}
   successParticles: {fileID: 3724912516880688905}
   crashparticles: {fileID: 8892242435177894276}
+--- !u!114 &1469817061328085906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989667674011039706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d4a801ac3b9be47b6e79ab569a705e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &889068908195250757
 PrefabInstance:
   m_ObjectHideFlags: 0
